@@ -27,5 +27,34 @@ body {
 }
 
 .title-shadow {
-  text-shadow: 4px 4px 0px rgb(45, 212, 191), 8px 8px 0px rgba(45, 212, 191, 0.7);
+  text-shadow: 4px 4px 0px var(--accent-primary), 8px 8px 0px rgba(45, 212, 191, 0.7);
+}
+
+/* Classes de utilidade para cores personalizadas */
+.text-accent {
+  color: var(--accent-primary);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.bg-card {
+  background-color: var(--card-bg);
+}
+
+.border-accent {
+  border-color: var(--accent-primary);
+}
+
+.border-card {
+  border-color: var(--card-border);
 }

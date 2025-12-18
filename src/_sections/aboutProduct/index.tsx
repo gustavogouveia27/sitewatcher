@@ -23,11 +23,11 @@ export default function AboutProductSection() {
             </div>
 
             <div className="font-bold flex-1 flex flex-col justify-center">
-              <p className="text-2xl text-white leading-snug mb-4">
+              <p className="text-2xl text-primary leading-snug mb-4">
                 Esqueça a sorte. Nosso cheat oferece uma camada extra de percepção que coloca você no topo de qualquer partida. 
                 Visualize jogadores através de paredes, controle total da mira e elimine o fator surpresa do seu gameplay.
               </p>
-              <p className="text-2xl text-white leading-snug">
+              <p className="text-2xl text-primary leading-snug">
                 Desenvolvido com foco em segurança avançada e estabilidade, nosso sistema permite que você mantenha o controle 
                 total do mapa sem comprometer a performance do seu PC. Seja o jogador que todos respeitam (e temem), mantendo 
                 uma postura indetectável e um desempenho inalcançável.
@@ -37,26 +37,26 @@ export default function AboutProductSection() {
         </div>
 
         <div className="mt-10 max-w-4xl mx-auto px-4">
-          <dl className="rounded-lg bg-gray-800/50 shadow-lg grid grid-cols-3">
-            <div className="flex flex-col border-r border-teal-400 p-6 text-center">
-              <dt className="order-2 mt-2 text-lg font-bold text-white">
+          <dl className="rounded-lg bg-card shadow-lg grid grid-cols-3">
+            <div className="flex flex-col border-r border-accent p-6 text-center">
+              <dt className="order-2 mt-2 text-lg font-bold text-primary">
                 Partidas Jogadas no Mês
               </dt>
-              <dd className="order-1 text-5xl font-extrabold text-teal-400">1500+</dd>
+              <dd className="order-1 text-5xl font-extrabold text-accent">1500+</dd>
             </div>
 
-            <div className="flex flex-col border-x border-teal-400 p-6 text-center">
-              <dt className="order-2 mt-2 text-lg font-bold text-white">
+            <div className="flex flex-col border-x border-accent p-6 text-center">
+              <dt className="order-2 mt-2 text-lg font-bold text-primary">
                 Taxa de Vitórias no Mês
               </dt>
-              <dd className="order-1 text-5xl font-extrabold text-teal-400">76%</dd>
+              <dd className="order-1 text-5xl font-extrabold text-accent">76%</dd>
             </div>
 
-            <div className="flex flex-col border-l border-teal-400 p-6 text-center">
-              <dt className="order-2 mt-2 text-lg font-bold text-white">
+            <div className="flex flex-col border-l border-accent p-6 text-center">
+              <dt className="order-2 mt-2 text-lg font-bold text-primary">
                 Banimentos por detecção
               </dt>
-              <dd className="order-1 text-5xl font-extrabold text-teal-400">0</dd>
+              <dd className="order-1 text-5xl font-extrabold text-accent">0</dd>
             </div>
           </dl>
         </div>

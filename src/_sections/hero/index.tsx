@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Navbar from "../../_components/navbar";
+import Button from "@/src/_components/button";
 
 export default function HeroSection() {
     return (
@@ -15,13 +16,13 @@ export default function HeroSection() {
                             O mais seguro e <span className="text-[#aa00ff]">MELHOR</span><br /> cheat de CS2 do mercado!
                         </h1>
 
-                        <h2 className="mt-6 md:mt-8 text-base md:text-lg text-gray-300">
+                        <h2 className="mt-6 md:mt-8 text-base md:text-lg text-secondary">
                             Cansado de ficar por último na tabela e depender do seu time?
                         </h2>
 
-                        <button className="mt-6 md:mt-8 bg-[#83348b] hover:bg-[#9b4bd1] text-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-lg text-base md:text-lg transition-all duration-300 shadow-[0_0_20px_#83348b] hover:shadow-[0_0_30px_#9b4bd1] transform hover:scale-105">
+                        <Button>
                             COMPRE AGORA!
-                        </button>
+                        </Button>
                     </div>
 
                     <div className="hidden lg:flex items-center justify-center">
