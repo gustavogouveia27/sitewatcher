@@ -10,8 +10,7 @@ export default function AboutProductSection() {
       </h1>
       <div className="flex flex-row px-4">
         <div className="flex content-center justify-center">
-          <iframe 
-            className="content-center justify-center"
+          <iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/ID_DO_VIDEO"
