@@ -1,14 +1,18 @@
 "use client";
+
 import HeroSection from "../_sections/hero";
 import AboutProductSection from "../_sections/aboutProduct";
-import PricingSection from "../_sections/pricing/pricing";
+import ProductSection from "../_sections/product";
+import SectionDivider from "../_components/SectionDivider";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-gradient-to-b from-teal-900 to-gray-900">
       <HeroSection />
+      <SectionDivider />
       <AboutProductSection />
-      <PricingSection />
+      <SectionDivider />
+      <ProductSection />
     </main>
   );
 }

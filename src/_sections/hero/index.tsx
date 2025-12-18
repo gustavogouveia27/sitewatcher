@@ -1,20 +1,18 @@
-
 "use client";
-import Image from "next/image";
 
+import Image from "next/image";
 import Navbar from "../../_components/navbar";
 
 export default function HeroSection() {
     return (
-        <section id="Hero"  className="relative min-h-screen overflow-hidden bg-[url('/background.png')] bg-cover bg-center bg-no-repeat before:content-[''] before:absolute before:inset-0 before:bg-black/40">
+        <section id="Hero" className="relative min-h-screen">
             <Navbar />
 
-           <div className="relative z-10 flex items-center justify-center min-h-screen">
+            <div className="relative z-10 flex items-center justify-center min-h-screen">
                 <div className="container mx-auto px-6 md:px-10 lg:px-16 flex items-center justify-center gap-12 lg:gap-20">
                     <div className="max-w-2xl text-center lg:text-left">
                         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
-                            O mais seguro e <span className="text-[#aa00ff]">MELHOR</span><br /> cheat de CS2
-                            do mercado!
+                            O mais seguro e <span className="text-[#aa00ff]">MELHOR</span><br /> cheat de CS2 do mercado!
                         </h1>
 
                         <h2 className="mt-6 md:mt-8 text-base md:text-lg text-gray-300">
