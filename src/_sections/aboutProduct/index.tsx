@@ -8,31 +8,31 @@ export default function AboutProductSection() {
         <strong>Legit</strong> Hacking
 
       </h1>
-      <div className="flex flex-row px-4">
-        <div className="flex content-center justify-center">
+      <div className="flex flex-row px-4 items-center gap-8">
+        <div className="flex-1 flex items-center justify-center">
           <iframe 
-            className="content-center justify-center"
+            className="rounded-lg shadow-lg"
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/ID_DO_VIDEO"
+            src="https://www.youtube.com/watch?v=cPdbef-JMws"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
         </div>
-        <div>
-          <p className="translate-x-100 mt-10 max-w-2xl mx-auto text-left text-2xl text-white leading-relaxed">
+        <div className="flex-1 pr-4">
+          <p className="text-left text-2xl text-white leading-relaxed">
             Nosso cheat foi desenvolvido com foco total em segurança e experiência natural de jogo,
             sendo ideal para jogadores que desejam subir de nível de forma progressiva e consistente.
           </p>
-          <p className="translate-x-100 mt-2 max-w-2xl mx-auto text-left text-2xl text-white leading-relaxed">
+          <p className="mt-4 text-left text-2xl text-white leading-relaxed">
             A proposta é auxiliar na evolução dentro do jogo sem comprometer a fluidez, mantendo
             movimentos, decisões e visualização alinhados com um comportamento legítimo. Tudo é
             pensado para quem quer melhorar o desempenho, aprender mais rápido e evoluir com confiança,
             sem chamar atenção ou quebrar a imersão do gameplay.
           </p>
-          <p className="translate-x-100 mt-2 max-w-2xl mx-auto text-left text-2xl text-white leading-relaxed">
+          <p className="mt-4 text-left text-2xl text-white leading-relaxed">
             Segurança, estabilidade e evolução caminham juntas para entregar uma experiência equilibrada,
             voltada a jogadores que buscam crescer no jogo de forma inteligente.
           </p>
