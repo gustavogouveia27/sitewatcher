@@ -1,8 +1,8 @@
+"use client";
 import Image from 'next/image';
 
 export default function Navbar() {
   return (
-
     <div className=" ">
       {/*<div className="text-center font-medium py-2 bg-gradient-to-r from-violet-500 via-[#9938CA] to-[#E0724A]">*/}
       <div className="opacity-0 ">
@@ -16,10 +16,10 @@ export default function Navbar() {
               src="/logo.png"
               alt="Tênis de corrida vermelho"
               width={120}
-              height={100}
+              height={120}
               className="position absolute"
             />
-            <figcaption className="ml-25 font-bold text-2xl font-mono bg-gradient-to-r from-violet-500 via-[#9938CA] to-[#E0724A] bg-clip-text text-transparent">
+            <figcaption className="ml-33 font-bold text-2xl font-mono bg-gradient-to-r from-violet-500 via-[#9938CA] to-[#E0724A] bg-clip-text text-transparent">
               Watcher
             </figcaption>
           </figure>

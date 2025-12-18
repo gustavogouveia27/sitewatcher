@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Show() {
+export default function ShowSection() {
   return (
     <div className="mt-100 bg-gradient-to-r from-black via-neutral-900 to-neutral-800 py-20">
       <div className="max-w-4xl mx-auto px-4">
