@@ -6,7 +6,7 @@ import Navbar from "../../_components/navbar";
 
 export default function HeroSection() {
     return (
-        <section className="relative min-h-screen overflow-hidden bg-[url('/background.png')] bg-cover bg-center bg-no-repeat before:content-[''] before:absolute before:inset-0 before:bg-black/40">
+        <section id="Hero"  className="relative min-h-screen overflow-hidden bg-[url('/background.png')] bg-cover bg-center bg-no-repeat before:content-[''] before:absolute before:inset-0 before:bg-black/40">
             <Navbar />
 
            <div className="relative z-10 flex items-center justify-center min-h-screen">
