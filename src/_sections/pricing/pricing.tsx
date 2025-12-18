@@ -1,10 +1,10 @@
 "use client";
 
-export default function AboutProductSection() {
+export default function PricingSection() {
   return (
-    <section id="AboutProduct" className="bg-zinc-700 py-20">
+    <section id="PricingSection" className="bg-zinc-700 py-20">
       <h1 className=" text-center text-7xl font-bold text-white mb-10">
-        <strong>Legit</strong> Hacking
+        Preço
       </h1>
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex flex-row items-center gap-12">
