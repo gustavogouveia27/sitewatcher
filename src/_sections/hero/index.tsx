@@ -9,7 +9,7 @@ export default function HeroSection() {
         <section id="Hero" className="relative min-h-screen">
             <Navbar />
 
-            <div className="relative z-10 flex items-center justify-center min-h-screen">
+            <div className="relative z-10 flex items-center justify-center">
                 <div className="container mx-auto px-6 md:px-10 lg:px-16 flex items-center justify-center gap-12 lg:gap-20">
                     <div className="max-w-2xl text-center lg:text-left">
                         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
