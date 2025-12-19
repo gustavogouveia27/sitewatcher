@@ -42,15 +42,21 @@ export default function ProductSection() {
 
         {/* <!-- FAQ Section --> */}
         <div className="mt-20">
-          <h3 className="text-2xl font-bold text-primary text-center mb-10">Frequently Asked Questions</h3>
+          <h3 className="text-2xl font-bold text-primary text-center mb-10">Dúvidas Frequentes</h3>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="p-6 rounded-lg border border-card" style={{ backgroundColor: 'rgba(31, 41, 55, 0.3)' }}>
-              <h4 className="text-accent font-medium mb-2">How long does it take to build my website?</h4>
-              <p className="text-secondary">Most websites are delivered within 2-3 weeks. E-commerce solutions may take 4-6 weeks depending on complexity.</p>
+              <h4 className="text-accent font-medium mb-2">Quando foi o último BAN WAVE?</h4>
+              <p className="text-secondary">
+                Nosso produto nunca foi detectado. Por ser um cheat externo, ele oferece um nível de 
+                segurança significativamente superior em comparação a outros tipos de cheats.
+              </p>
             </div>
             <div className="p-6 rounded-lg border border-card" style={{ backgroundColor: 'rgba(31, 41, 55, 0.3)' }}>
-              <h4 className="text-accent font-medium mb-2">Do you provide website hosting?</h4>
-              <p className="text-secondary">Yes! Website hosting is available for ₹499/month with free SSL certificate and daily backups.</p>
+              <h4 className="text-accent font-medium mb-2">Como se comunicar com o suporte?</h4>
+              <p className="text-secondary">
+                O único meio de suporte é através de tickets dentro do nosso servidor de Discord.
+                A equipe nunca entrará em contato por mensagens privadas, toda comunicação é feita no servidor do Discord.
+              </p>
             </div>
           </div>
         </div>

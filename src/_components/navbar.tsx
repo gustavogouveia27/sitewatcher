@@ -10,23 +10,23 @@ export default function Navbar() {
         <p>Cupom de primeira <span className="underline underline-offset-2">compra!</span></p>
       </div>
 
-      <nav className="opacity-90 relative h-[70px] flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-8 py-4 bg-white text-gray-900 transition-all shadow mt-6 mx-6 md:mx-16 lg:mx-24 xl:mx-32 rounded-full">
+      <nav className="navbar-glow opacity-90 relative h-[70px] flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-8 py-4 bg-white text-gray-900 transition-all shadow mt-6 mx-6 md:mx-16 lg:mx-24 xl:mx-32 rounded-full">
         <a href="#">
           <figure className="flex items-center">
             <Image
-              src="/logo.png"
+              src="/logocerto.png"
               alt="Logo"
               width={120}
               height={120}
               className="position absolute"
             />
-            <figcaption className="ml-33 font-bold text-2xl font-mono bg-gradient-to-r from-teal-400 via-teal-700 to-gray-900 bg-clip-text text-transparent">
+            <figcaption className="ml-33 font-bold text-6xl font-mono bg-gradient-to-r from-teal-400 via-teal-700 to-gray-900 bg-clip-text text-transparent">
               Watcher
             </figcaption>
           </figure>
         </a>
 
-        <ul className="hidden md:flex items-center space-x-8 md:pl-28">
+        <ul className="hidden text-[#2dd4bf] font-bold text-2xl md:flex items-center space-x-8 md:pl-28">
           <li><a href="#">Home</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Portfolio</a></li>
