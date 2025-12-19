@@ -1,8 +1,11 @@
 "use client";
 
 import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div>
       {/*<div className="text-center font-medium py-2 bg-gradient-to-r from-violet-500 via-[#9938CA] to-[#E0724A]">*/}
@@ -18,34 +21,32 @@ export default function Navbar() {
               alt="Logo"
               width={120}
               height={120}
-              className="position absolute"
+              className="position absolute max-h-[40px] w-auto md:max-h-[70px]"
             />
-            <figcaption className="ml-33 font-bold text-6xl font-mono bg-gradient-to-r from-teal-400 via-teal-700 to-gray-900 bg-clip-text text-transparent">
+            <figcaption className="ml-12 md:ml-20 font-bold text-3xl md:text-6xl font-mono bg-gradient-to-r from-teal-400 via-teal-700 to-gray-900 bg-clip-text text-transparent">
               Watcher
             </figcaption>
           </figure>
         </a>
 
         <ul className="hidden text-[#2dd4bf] font-bold text-2xl md:flex items-center space-x-8 md:pl-28">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Pricing</a></li>
+          <li><a href="#Hero">Início</a></li>
+          <li><a href="#AboutProduct">Sobre</a></li>
+          <li><a href="#ProductSection">Produtos</a></li>
         </ul>
 
 
-        <button aria-label="menu-btn" type="button" className="menu-btn inline-block md:hidden active:scale-90 transition">
+        <button aria-label="menu-btn" type="button" className="menu-btn inline-block md:hidden active:scale-90 transition" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
             <path d="M3 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2z" />
           </svg>
         </button>
 
-        <div className="mobile-menu absolute top-[70px] left-0 w-full bg-white shadow-sm p-6 hidden md:hidden">
+        <div className={`mobile-menu absolute top-[70px] left-0 w-full bg-white shadow-sm p-6 md:hidden ${isMenuOpen ? '' : 'hidden'}`}>
           <ul className="flex flex-col space-y-4 text-lg">
-            <li><a href="#" className="text-sm">Home</a></li>
-            <li><a href="#" className="text-sm">Services</a></li>
-            <li><a href="#" className="text-sm">Portfolio</a></li>
-            <li><a href="#" className="text-sm">Pricing</a></li>
+            <li><a href="#Hero" className="text-sm">Início</a></li>
+            <li><a href="#AboutProduct" className="text-sm">Sobre</a></li>
+            <li><a href="#ProductSection" className="text-sm">Produtos</a></li>
           </ul>
         </div>
       </nav>

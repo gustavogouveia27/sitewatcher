@@ -9,12 +9,10 @@ export default function AboutProductSection() {
         </h1>
 
         <div className="max-w-7xl mx-auto px-8">
-          <div className="flex flex-row items-center gap-12">
-            <div className="flex-shrink-0">
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="w-full md:w-auto">
               <iframe
-                className="mr-10 aspect-video rounded-lg ring-12 ring-teal-800/50"
-                width="560"
-                height="315"
+                className="w-full mr-10 aspect-video rounded-lg ring-12 ring-teal-800/50"
                 src="https://www.youtube.com/embed/cPdbef-JMws"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -36,13 +34,14 @@ export default function AboutProductSection() {
           </div>
         </div>
 
+        {/* Estatistica */}
         <div className="mt-10 max-w-4xl mx-auto px-4">
-          <dl className="rounded-lg bg-card shadow-lg grid grid-cols-3">
+          <dl className="rounded-lg bg-card shadow-lg grid grid-cols-1 md:grid-cols-3">
             <div className="flex flex-col border-r border-accent p-6 text-center">
               <dt className="order-2 mt-2 text-lg font-bold text-primary">
                 Partidas Jogadas no Mês
               </dt>
-              <dd className="order-1 text-5xl font-extrabold text-accent">1500+</dd>
+              <dd className="order-1 text-5xl font-extrabold text-accent">+1500</dd>
             </div>
 
             <div className="flex flex-col border-x border-accent p-6 text-center">
