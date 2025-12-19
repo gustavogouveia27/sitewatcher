@@ -7,7 +7,7 @@ import Button from "@/src/_components/button";
 export default function HeroSection() {
     return (
         <section id="Hero" className="relative min-h-screen">
-            <Navbar />
+
 
             <div className="relative z-10 flex items-center justify-center min-h-screen">
                 <div className="container mx-auto px-6 md:px-10 lg:px-16 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">

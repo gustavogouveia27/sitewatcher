@@ -30,9 +30,10 @@
   /* gray-400 */
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
+html, body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #134e4a, #111827);
   font-family: 'Iceland', Arial, Helvetica, sans-serif;
 }
 
